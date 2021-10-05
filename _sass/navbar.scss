@@ -1,36 +1,54 @@
 .nav-bar {
-    width: 100%;
-    background-color: #133667;
-    font-family: "Poppins", serif;
-    font-weight: 700 !important;
-    padding-top: 10px;
+  width: 100%;
+  background-color: #24aa1f;
+  font-family: 'Poppins', serif;
+  font-weight: 700 !important;
 }
 
-.nav-content .logo-touch-target {
-    display: inline-flex;
-    height: 60%;
-    width: 350px;
+.nav-content {
+  position: fixed;
 }
-
 .nav-content .nav-logo {
-    height: 60px;
-    margin: auto;
+  height: 60px;
+  margin: 5px;
 }
 
 .nav-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-logo img {
-    width: 200px;
+  width: 200px;
 }
 
-.nav-content nav {
-    display: block;
-    width: 100%;
-    text-align: right;
-    padding-top: 0px;
-    padding-right: 0px;
+// .nav-content nav {
+//   display: block;
+//   width: 100%;
+//   text-align: right;
+//   padding-top: 0px;
+//   padding-right: 0px;
+// }
+
+.initiallogo {
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button {
+  padding: 10px;
+  background-color: blanchedalmond;
+  border-radius: 15px;
+}
+
+.finallogo {
+  width: 100%;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }

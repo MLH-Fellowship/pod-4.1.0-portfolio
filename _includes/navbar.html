@@ -1,10 +1,28 @@
 <header class="nav-bar">
-    <div class="nav-content">
-        <a href="{{ '/' | relative_url }}">
-            <div class="nav-logo">
-                <img src="./assets/img/mlh-prep.png" />
-            </div>
-        </a>
-        
+  <div class="nav-content initiallogo">
+    <div>
+      <a href="{{ '/' | relative_url }}">
+        <div class="nav-logo">
+          <img src="./assets/img/mlh-prep.png" />
+        </div>
+      </a>
     </div>
+    <div class="buttons">
+      <button class="button">Sample Toggle button</button>
+      <button class="button">Resume button</button>
+    </div>
+  </div>
 </header>
+<script>
+  window.onscroll = () => {
+    var navContentElement = document.getElementsByClassName('nav-content')[0];
+    var scrollLimit = 40;
+    if (window.scrollY >= scrollLimit) {
+      navContentElement.classList.remove('initiallogo');
+      navContentElement.classList.add('finallogo');
+    } else {
+      navContentElement.classList.remove('finallogo');
+      navContentElement.classList.add('initiallogo');
+    }
+  };
+</script>
