@@ -1,15 +1,51 @@
-- name: Will
-  img: logo.jpg
-  location: London, UK
+- name: Akhil Bhalerao
+  img: akhil.jpeg
+  location: Silvassa, India
 
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
+- name: Apurva Sharma
+  img: apurva.jpeg
+  location: Chhattisgrah, India
 
-- name: Aaron
-  img: aaron.jpg
-  location: London, UK
+- name: Aman Raj
+  img: aman.jpeg
+  location: Bihar, India
 
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
+- name: Devyansh Chawla
+  img: devyansh.jpeg
+  location: Haryana, India
+
+- name: Henok Tadele
+  img: henok.jpeg
+  location:
+
+- name: Hugo Castro
+  img: hugo.jpeg
+  location: Talca, Chile
+
+- name: Manasvi Alimchandani
+  img: manasvi.jpeg
+  location: Rajasthan, India
+
+- name: Manisha Jhunjhunwala
+  img: manisha.jpeg
+  location: Kolkata, India
+
+- name: Naman Kalra
+  img: naman.jpeg
+  location: Haryana,India
+
+- name: Nishtha Nishtha
+  img: nishtha.jpeg
+  location: Haryana,India
+
+- name: Priyaraj
+  img: priyaraj.jpeg
+  location: New Delhi, India
+
+- name: Raunak Kumar
+  img: raunak.jpeg
+  location: Odisha, India
+
+- name: Yogesh Kumar
+  img: yogesh.jpeg
+  location: 
