@@ -6,6 +6,16 @@
     padding-top: 10px;
 }
 
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-control-label {
+    color: #ffffff;
+}
+
 .nav-content .logo-touch-target {
     display: inline-flex;
     height: 60%;
