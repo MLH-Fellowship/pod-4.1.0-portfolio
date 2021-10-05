@@ -1,7 +1,9 @@
 - name: Will Russell
   img: swift.jpg
   location: London, United Kingdom
+  position : Program Manager
 
 - name: Grace Omotoso
   img: swift.jpg
   location: Murfreesboro, Tennessee, United States
+  position : Pod Leader
