@@ -17,12 +17,14 @@
   window.onscroll = () => {
     var navContentElement = document.getElementsByClassName('nav-content')[0];
     var scrollLimit = 40;
-    if (window.scrollY >= scrollLimit) {
-      navContentElement.classList.remove('initiallogo');
-      navContentElement.classList.add('finallogo');
-    } else {
-      navContentElement.classList.remove('finallogo');
-      navContentElement.classList.add('initiallogo');
-    }
+    setTimeout(() => {
+      if (window.scrollY >= scrollLimit) {
+        navContentElement.classList.remove('initiallogo');
+        navContentElement.classList.add('finallogo');
+      } else {
+        navContentElement.classList.remove('finallogo');
+        navContentElement.classList.add('initiallogo');
+      }
+    }, 50);
   };
 </script>
