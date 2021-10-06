@@ -4,6 +4,7 @@
 @import "navbar";
 @import "profile";
 @import "page";
+@import "dark-mode";
 
 .card-container {
   display: grid;
@@ -201,5 +202,15 @@ path {
   &:hover {
     color: #94c6e2;
     transform: rotate(22deg);
+  }
+}
+
+// Pod Stats
+.stats {
+  text-align: center;
+
+  .badge-stats {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
