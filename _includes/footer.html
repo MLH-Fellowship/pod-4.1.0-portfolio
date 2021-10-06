@@ -1,0 +1,11 @@
+<h2>Footer</h2>
+<div class="footer">
+    {% for item in site.data.footlinks %}
+    {% if item.foot-link %}
+    <a href="/blogs/{{ item.blog-name }}">
+    {% else %}
+    <a>
+    {% endif %}
+    </a>
+    {% endfor %}
+  </div>
