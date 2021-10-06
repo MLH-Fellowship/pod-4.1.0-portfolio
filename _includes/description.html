@@ -1,7 +1,7 @@
 <h2>Meet the Pod</h2>
 
 <!-- pod leader -->
-<div class="d-flex justify-content-around row fellow col-12 container">
+<div class="row d-flex justify-content-center  fellow col-12 container">
     {% for item in site.data.leaders %}
     <div class="col-md-4 mt-3 mb-3" >
         <div class="fellow-card" >
@@ -19,7 +19,7 @@
 <!-- pod fellow -->
 <div class="row fellow col-12 container">
     {% for item in site.data.fellows %}
-    <div class="col-md-3 mt-3 mb-3" >
+    <div class="col-md-3 col-sm-4 mt-3 mb-3" >
         <div class="fellow-card" style="width:95%; height:95% ;">
             <img src="./assets/img/{{ item.img }}" alt="" />
             <div class="data">
