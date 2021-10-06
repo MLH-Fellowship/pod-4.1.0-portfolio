@@ -1,0 +1,23 @@
+---
+title: Fellow
+permalink : /fellow/
+---
+<!DOCTYPE html>
+<html lang="en">
+{% include header.html %}
+
+<body>
+    <script>
+        const theme = localStorage.getItem('darkSwitch');
+        if(theme !== null) {
+            document.body.setAttribute('data-theme', 'dark');
+        }
+    </script>
+
+
+    {% include fellowprofile.html %}
+
+    {% include fellowbio.html %}
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+#vantajs {
+    width: auto; height: fit-content; margin-bottom: 10px;
+  }
+
+  .aboutme{
+      text-align: justify !important;
+      padding:0px 45px;
+  }
+  .github-stats{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    img{
+        margin: 40px 10px 0 10px;
+    }
+    justify-content: center;
+    
+  }
