@@ -5,6 +5,13 @@
 {% include header.html %}
 
 <body>
+    <script>
+        const theme = localStorage.getItem('darkSwitch');
+        if(theme !== null) {
+            document.body.setAttribute('data-theme', 'dark');
+        }
+    </script>
+
     {{ content }}
 
     {% include darkModeScript.html %}
