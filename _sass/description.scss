@@ -1,3 +1,15 @@
+$assetPath :"/assets/img/4.jpg";
+$assetPath1 :"/assets/img/3.jpg";
+
+
+
+
+.background{
+  background: url($assetPath);
+  background-size: cover;
+  text-decoration-color: #fff;
+  color: #333;
+ 
 .fellow-card {
     overflow: hidden;
     position: relative;
@@ -8,6 +20,7 @@
     margin-right: 0;
   }
   .fellow-card img {
+    
     width: 100%;
     min-height: 100%;
     transition: all 0.9s
@@ -29,7 +42,8 @@
     padding: 10px 5%;
     box-sizing: border-box;
     opacity: 0.8;
-    transition: all 0.4s
+    color: #333;
+    transition: all 0.4s;
   }
   .fellow-card:hover .data {
     width: 100%;
@@ -40,6 +54,7 @@
   }
   .data h2 {
     margin: 0 0 5px 0;
+    color: #333;
     transition: color 0.4s
   }
   .data p {
@@ -67,3 +82,11 @@
         margin-right: 0
     }
   }
+}
+@media 
+  (min-width: 375px) and (max-width: 400px),
+  (min-width: 468px) {
+  .background {
+    background-image: url($assetPath1);
+  }
+}
