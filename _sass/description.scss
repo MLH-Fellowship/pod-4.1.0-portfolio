@@ -1,3 +1,6 @@
+.container{
+  margin: 0 auto;
+}
 .fellow-card {
     overflow: hidden;
     position: relative;
@@ -29,7 +32,7 @@
     padding: 10px 5%;
     box-sizing: border-box;
     opacity: 0.8;
-    transition: all 0.4s
+    transition: all 0.4s;
   }
   .fellow-card:hover .data {
     width: 100%;
@@ -44,7 +47,7 @@
   }
   .data p {
     text-align: center;
-    transition: all 0.2s
+    transition: all 0.2s;
   }
   .fellow-card:hover .data p,
   .fellow-card:hover .data a {
@@ -60,10 +63,23 @@
   .fellow-card:hover h2 {
     color: #38c
   }
-  
-  @media (max-width:799px) {
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+  .fa-linkedin{
+    color: #38c !important;
+  }
+  @media (max-width:1024px) {
     .fellow-card {
         width: 100%;
         margin-right: 0
+    }
+    .data {
+      margin: 0 auto;
+    }
+    .fa-lg {
+      font-size: 1.5em !important;
+      margin-bottom: 20px;
     }
   }
