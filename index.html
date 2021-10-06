@@ -5,6 +5,13 @@
 {% include header.html %}
 
 <body>
+    <script>
+        const theme = localStorage.getItem('darkSwitch');
+        if(theme !== null) {
+            document.body.setAttribute('data-theme', 'dark');
+        }
+    </script>
+
     {% include navbar.html %}
 
     {% include profile.html %}
@@ -12,6 +19,10 @@
     {% include description.html %}
     
     {% include projects.html %}
+
+    {% include darkModeScript.html %}
+
+    {% include blogs.html %}
 </body>
 
 </html>
