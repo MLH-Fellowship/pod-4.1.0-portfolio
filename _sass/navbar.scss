@@ -1,36 +1,65 @@
 .nav-bar {
-    width: 100%;
-    background-color: #133667;
-    font-family: "Poppins", serif;
-    font-weight: 700 !important;
-    padding-top: 10px;
+  width: 100%;
+  background-color: #24aa1f;
+  font-family: 'Poppins', serif;
+  font-weight: 700 !important;
 }
 
-.nav-content .logo-touch-target {
-    display: inline-flex;
-    height: 60%;
-    width: 350px;
+.nav-content {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 1;
 }
-
 .nav-content .nav-logo {
-    height: 60px;
-    margin: auto;
+  height: 60px;
+  margin: 5px;
 }
 
 .nav-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-logo img {
-    width: 200px;
+  width: 200px;
 }
 
-.nav-content nav {
-    display: block;
-    width: 100%;
-    text-align: right;
-    padding-top: 0px;
-    padding-right: 0px;
+.initiallogo {
+  background-color: #133667;
+  justify-content: space-around;
+}
+
+.button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.finallogo {
+  background-color: #1d539f;
+  justify-content: space-between;
+}
+
+@media (min-width: 550px) and (max-width: 820px) {
+  .nav-logo img {
+    width: 150px;
+  }
+
+  .nav-bar {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 549px) {
+  .nav-logo img {
+    width: 100px;
+  }
+
+  .nav-bar {
+    font-size: 13px;
+  }
 }

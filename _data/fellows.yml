@@ -1,15 +1,64 @@
-- name: Will
-  img: logo.jpg
-  location: London, UK
+- name: Akhil Bhalerao
+  img: akhil.jpg
+  location: Silvassa, India
+  position : MLH Fellow
 
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
-
-- name: Aaron
+- name: Apurva Sharma
   img: aaron.jpg
-  location: London, UK
+  location: Chhattisgrah, India
+  position : MLH Fellow
 
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
+- name: Aman Raj
+  img: aman.jpeg
+  location: Bihar, India
+  position : MLH Fellow
+
+- name: Devyansh Chawla
+  img: devyansh.jpg
+  location: Haryana, India
+  position : MLH Fellow
+
+- name: Henok Tadele
+  img: aaron.jpg
+  location: Location
+  position : MLH Fellow
+
+- name: Hugo Castro
+  img: aaron.jpg
+  location: Talca, Chile
+  position : MLH Fellow
+
+- name: Manasvi Alimchandani
+  img: manasvi.jpeg
+  location: Rajasthan, India
+  position : MLH Fellow
+
+- name: Manisha Jhunjhunwala
+  img: manisha.jpg
+  location: Kolkata, India
+  position : MLH Fellow
+
+- name: Naman Kalra
+  img: naman.jpg
+  location: Haryana,India
+  position : MLH Fellow
+
+- name: Nishtha Nishtha
+  img: aaron.jpg
+  location: Haryana,India
+  position : MLH Fellow
+
+- name: Priyaraj
+  img: priyaraj.png
+  location: New Delhi, India
+  position : MLH Fellow
+
+- name: Raunak Kumar
+  img: raunak.jpeg
+  location: Odisha, India
+  position : MLH Fellow
+
+- name: Yogesh Kumar
+  img: aaron.jpg
+  location: Location
+  position : MLH Fellow
