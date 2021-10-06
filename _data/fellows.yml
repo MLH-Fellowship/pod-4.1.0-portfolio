@@ -1,3 +1,10 @@
+- name: Grace Omotoso
+  img: amanda.jpg
+  location: Murfreesboro, Tennessee, United States
+  position : Pod Leader
+  github : https://github.com/grace-omotoso
+  linkedIn : https://github.com/grace-omotoso
+  
 - name: Akhil Bhalerao
   img: akhil.jpg
   location: Silvassa, India
@@ -88,3 +95,10 @@
   position : MLH Fellow
   github : 
   linkedIn : 
+
+- name: Rudransh Sharma
+  img: aaron.jpg
+  location: Odisha, India
+  position : MLH Fellow
+  github : https://github.com/rudranshsharma123
+  linkedIn : https://www.linkedin.com/in/rudransh-sharma123/
