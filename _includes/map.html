@@ -1,0 +1,16 @@
+<div class="map-container">
+    <div id="map-pod">
+        <!-- Here goes the leaflet -->
+    </div>
+</div>
+
+<script>
+    var podmap = L.map('map-pod').setView([51.505, -0.09], 4);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(podmap);
+</script>
+
+<style>
+    #map-pod { height: 180px; }
+</style>
