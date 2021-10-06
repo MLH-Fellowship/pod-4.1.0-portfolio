@@ -4,7 +4,7 @@
   date: Fall 2021  - Batch 4.5
   project-avatar: swift.jpg
   demo-link: https://www.youtube.com/
-  project-link: https://prep-pod-4-1-0.netlify.app/projects/project
+  project-link: projects/project.html
   github-link: https://github.com/MLH-Fellowship/pod-4.1.0-portfolio
   page-name: project
 
@@ -14,7 +14,7 @@
   date: Fall 2021  - Batch 4.5
   project-avatar: aaron.jpg
   demo-link: https://www.youtube.com/
-  project-link: https://prep-pod-4-1-0.netlify.app/projects/project
+  project-link: projects/project.html
   github-link: https://github.com/MLH-Fellowship/pod-4.1.0-portfolio
   page-name: project
 
@@ -24,6 +24,6 @@
   date: Fall 2021  - Batch 4.5
   project-avatar: amanda.jpg
   demo-link: https://www.youtube.com/
-  project-link: https://prep-pod-4-1-0.netlify.app/projects/project
+  project-link: projects/project.html
   github-link: https://github.com/MLH-Fellowship/pod-4.1.0-portfolio
   page-name: project

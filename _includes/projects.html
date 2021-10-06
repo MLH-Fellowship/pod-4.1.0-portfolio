@@ -1,7 +1,12 @@
 <h2>Projects</h2>
 <div class="card-container">
   {% for item in site.data.projects %}
-  <div class="project-card">
+  <!-- <a href="{{ item.project-link }}> -->
+  <div
+    class="project-card"
+    onclick="location.href='{{ item.project-link }}';"
+    style="cursor: pointer"
+  >
     <div class="img-avatar">
       <!--  Add profile picture of project admin on project card -->
       <img
