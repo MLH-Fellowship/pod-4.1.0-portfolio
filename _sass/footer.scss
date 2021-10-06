@@ -1,0 +1,41 @@
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+  }
+  
+  .footer-link a {
+    color: #787a7d;
+    line-height: 38px;
+    font-size: 15px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    font-weight: 500;
+  }
+  
+  .footer-link a:hover {
+    color: #4252f9;
+  }
+  
+  .social-icons-list li {
+    margin-bottom: .5rem;
+  }
+  
+  .social-icons-list li a {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 15px;
+    color: #022334;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    background-color: #e4efff;
+    border-radius: 50%;
+  }
+  
+  .social-icons-list li a:hover {
+    background-color: #4252f9;
+    color: #ffffff;
+  }
