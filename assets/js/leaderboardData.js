@@ -1,5 +1,5 @@
 const api_url =
-  "https://api.github.com/search/issues?q=is:pr+is:merged+repo:MLH-Fellowship/pod-4.1.0-portfolio";
+  "https://api.github.com/repos/MLH-Fellowship/pod-4.1.0-portfolio/pulls?state=closed";
 
 /* 
 Team Members List: (Based on Index number)
@@ -35,7 +35,6 @@ async function getapi(url) {
 
   // Storing data in form of JSON
   var data = await response.json();
-  //
   renderData(data);
 }
 
@@ -46,23 +45,27 @@ getapi(api_url);
 // we received from API
 function renderData(data) {
   var pr_count = {};
-  pr_data = data["items"];
+  pr_data = data;
 
   // iterating above all the available PRs.
   for (let i = 0; i < pr_data.length; i++) {
-    // storing the no of PRs per user in a dictionary -> pr_count
-    if (pr_count[pr_data[i]["user"]["login"]]) {
-      pr_count[pr_data[i]["user"]["login"]] += 1;
-    } else {
-      pr_count[pr_data[i]["user"]["login"]] = 1;
+    //   Only accepting the PRs which are merged
+    if (pr_data[i]["merged_at"] !== null) {
+      // storing the no of PRs per user in a dictionary -> pr_count
+      // console.log(pr_data[i]["user"]["login"])
+      if (pr_count[pr_data[i]["user"]["login"]]) {
+        pr_count[pr_data[i]["user"]["login"]] += 1;
+      } else {
+        pr_count[pr_data[i]["user"]["login"]] = 1;
+      }
     }
   }
-
   updateTeamScores(pr_count);
 }
 
 // Function to update the team data
 function updateTeamScores(pr_commits_map) {
+  // Creating Team Score based on PRs of each member.
   for (var key in pr_commits_map) {
     username = key;
     prs_merged = pr_commits_map[key];
@@ -91,6 +94,7 @@ function updateTeamScores(pr_commits_map) {
     return b[1] - a[1];
   });
 
+  // passing the data to HTML
   show(sortable);
 }
 
