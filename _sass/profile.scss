@@ -1,5 +1,20 @@
+$assetPath_small: "/assets/img/header_back_light_small.jpg";
+$assetPath_large: "/assets/img/header_back_light_large.jpg";
+
+.background {
+  
+  background: url($assetPath_large) no-repeat center center ;
+  background-size: cover;
+  
+  -webkit-background-size: cover;
+
+  background-position: center;
+}
 .profile {
-  background-color: #133667 !important;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   height: fit-content;
   margin-bottom: 50px;
@@ -7,25 +22,39 @@
   padding-top: 70px;
   z-index: 9;
 
-  h1 {
-    font-size: 50px;
-    font-weight: 700;
-    color: white;
-    margin: 0;
-  }
+.profile-picture {
+  width: 50px;
+  height: 300px;
+}
 
-  img {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline;
-    padding: 20px;
-  }
+.profile-picture img {
+  object-fit: cover;
+  width: 250px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: inline;
+  padding: 30px;
+}
 
-  .profile-picture {
-    margin-bottom: 30px;
-    height: fit-content;
+@media (min-width: 375px) {
+  .background {
+    background-image: url($assetPath_small);
+    background-size: cover;
   }
+}
+
+@media (max-width: 360px) {
+  .p-text {
+    font-size: medium;
+  }
+  .profile-picture img{
+   margin-top: 80px;
+   margin-left: -10px;
+   width: 200px;
+   height: 190px;
+   text-align: center;
+  }
+}
 }
