@@ -36,4 +36,43 @@
     visibility: visible;
   }
   
-  
+  .chevrons {
+    padding: 4px 0 0 0;
+    width: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+  }
+  .chevrondown {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    bottom: 40px;
+    transform: rotate(-135deg);
+    position: relative;
+  }
+  .chevrondown:nth-child(even) {
+    animation: pulse 500ms ease infinite alternate;
+  }
+  .chevrondown:nth-child(odd) {
+    animation: pulse 500ms ease infinite alternate 250ms;
+  }
+  @keyframes pulse {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 0.5;
+    }
+  }
+.chevrons.show{
+  opacity: 1;
+    visibility: visible;
+}
