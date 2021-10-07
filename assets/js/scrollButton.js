@@ -1,7 +1,8 @@
 
 var btn = $('#scroll-button');
+var chevronbtn = $(".chevrons");
 
-$(window).scroll(function() {
+$(window).scroll(function () {
   if ($(window).scrollTop() > 300) {
     btn.addClass('show');
   } else {
@@ -9,7 +10,15 @@ $(window).scroll(function() {
   }
 });
 
-btn.on('click', function(e) {
+$(window).scroll(function () {
+  if ($(window).scrollTop() > 300) {
+    chevronbtn.addClass('show');
+  } else {
+    chevronbtn.removeClass('show');
+  }
+});
+
+btn.on('click', function (e) {
   e.preventDefault();
   window.scrollTo({
     top: 0,
