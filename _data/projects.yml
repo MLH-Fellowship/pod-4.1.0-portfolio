@@ -1,14 +1,29 @@
-- title: Online Shopping App
-  event: MLH Prep Pod Project
+- title: Medical App
+  event: MLH Hack Project
+  img: project-1.png
   date: Fall 2021  - Batch 4.5
+  project-avatar: swift.jpg
+  demo-link: https://www.youtube.com/
+  project-link: project/
+  github-link: https://github.com/MLH-Fellowship/pod-4.1.0-portfolio
   page-name: project
 
 - title: Todo List
   event: MLH Prep Pod Project
+  img: project-2.png
   date: Fall 2021  - Batch 4.5
+  project-avatar: aaron.jpg
+  demo-link: https://www.youtube.com/
+  project-link: project/
+  github-link: https://github.com/MLH-Fellowship/pod-4.1.0-portfolio
   page-name: project
 
 - title: iOS App
   event: MLH Prep Pod Project
+  img: project-3.png
   date: Fall 2021  - Batch 4.5
+  project-avatar: amanda.jpg
+  demo-link: https://www.youtube.com/
+  project-link: project/
+  github-link: https://github.com/MLH-Fellowship/pod-4.1.0-portfolio
   page-name: project

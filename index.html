@@ -17,9 +17,27 @@
       }
     </script>
 
+    {% include loader.html %}
 
-    {% include navbar.html %} {% include profile.html %} {% include
-    description.html %} {% include projects.html %} {% include
-    darkModeScript.html %} {% include blogs.html %} {% include leaderboard.html %} {% include map.html %}
+    {% include navbar.html %}
+
+    {% include profile.html %}
+    
+    {% include description.html %}
+
+    {% include leaderboard.html %}
+    
+    {% include projects.html %}
+
+    {% include darkModeScript.html %}
+
+    {% include blogs.html %}
+
+    {% include map.html %}    
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
