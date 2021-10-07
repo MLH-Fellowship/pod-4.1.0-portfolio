@@ -66,6 +66,9 @@
 .fellow-card:hover h2 {
   color: #38c
 }
+.small-carousal {
+  display: none;
+}
 
 @media (max-width:799px) {
   .fellow-card {
@@ -78,5 +81,11 @@
       width: 100%;
       margin-right: 0;
       margin-left: 0
+  }
+  .small-carousal {
+    display: block;
+  }
+  .large-carousal {
+    display: none;
   }
 }
