@@ -3,15 +3,20 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  {% include header.html %}
+
 
   <body>
+
+{% include header.html %}
+{% include cursor.html %}
+<body>
     <script>
       const theme = localStorage.getItem('darkSwitch');
       if (theme !== null) {
         document.body.setAttribute('data-theme', 'dark');
       }
     </script>
+
 
     {% include navbar.html %} {% include profile.html %} {% include
     description.html %} {% include projects.html %} {% include
