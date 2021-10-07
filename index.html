@@ -19,6 +19,8 @@
     </script>
     {% include navbar.html %}
 
+    {% include loader.html %}
+
     {% include profile.html %}
     
     {% include description.html %}
@@ -29,9 +31,13 @@
 
     {% include blogs.html %}
 
-    {% include scrollButton.html %}   
+    {% include scrollButton.html %} 
 
-    {% include map.html %}
+    {% include map.html %}    
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
