@@ -33,4 +33,16 @@
     .fellow-card .data h2,   .fellow-card .data p{
       color: #000000 !important ;
     }
+
+    .card-blogs {
+      border: 1px solid #ccc;
+    }
+
+    .card-blogs:before, .card-blogs:after {
+      background: #28293D;
+    }
+
+    .num, .des-blog {
+      color: #CFCFD4 !important;
+    }
   }
