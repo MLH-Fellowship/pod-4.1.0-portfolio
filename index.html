@@ -4,6 +4,7 @@
 <html lang="en">
 {% include header.html %}
 {% include cursor.html %}
+{% include scrollButton.html %}
 <body>
     <script>
         const theme = localStorage.getItem('darkSwitch');
@@ -23,6 +24,8 @@
     {% include darkModeScript.html %}
 
     {% include blogs.html %}
+
+    {% include scrollButton.html %}   
 </body>
 
 </html>
