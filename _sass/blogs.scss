@@ -36,7 +36,6 @@ a {
   font-size: 1.5em;
   color: white;
   border-radius: 0.6em;
-  padding: 1em;
   display: flex;
   align-items: center;
   background-size: cover;
@@ -47,14 +46,29 @@ a {
   overflow: hidden;
   text-decoration: none;
 }
-
+.glass{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:flex-start;
+  padding: 1em;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
 .card-blogs:hover {
   transform: rotate(0);
 }
 
 .card-blogs h1 {
   margin: 0;
-  font-size: 1.25em;
+  font-size: 1.15em;
+  font-weight: 600;
   line-height: 1.2em;
 }
 
