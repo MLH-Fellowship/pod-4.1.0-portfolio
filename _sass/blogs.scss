@@ -31,8 +31,8 @@ a {
   font-family: 'Heebo';
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
-  height: 16em;
-  width: 15em;
+  max-height: 16em;
+  max-width: 15em;
   font-size: 1.5em;
   color: white;
   border-radius: 0.6em;
