@@ -16,16 +16,18 @@ $assetPath_large: "/assets/img/jeremy-thomas-large.jpg";
   font-size: large;
 }
 .p-text {
-  margin-top: 100px;
+  // margin-top: 100px;
   font-size: x-large;
   font-weight: 900;
   color: whitesmoke;
+  // position:center;
+  text-align: center;
 }
 
 .profile-picture {
-  margin-left: -120px;
+  margin-left: -50px;
   margin-bottom: -10px;
-
+  text-align: center;
   align-content: flex-end;
   width: 500px;
   height: 250px;
