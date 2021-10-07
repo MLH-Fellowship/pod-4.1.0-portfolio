@@ -18,6 +18,8 @@ fellow: Akhil Bhalerao
 {% for item in site.data.fellows %}
 {% if item.name == page.fellow %}
 
+    {% include loader.html %}
+    
     {% include navbar.html %}
 
     {% include fellowprofile.html %}
