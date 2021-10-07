@@ -1,18 +1,22 @@
 ---
 ---
+
 <!DOCTYPE html>
 <html lang="en">
+
+
+  <body>
+
 {% include header.html %}
 {% include cursor.html %}
 {% include scrollButton.html %}
 <body>
     <script>
-        const theme = localStorage.getItem('darkSwitch');
-        if(theme !== null) {
-            document.body.setAttribute('data-theme', 'dark');
-        }
+      const theme = localStorage.getItem('darkSwitch');
+      if (theme !== null) {
+        document.body.setAttribute('data-theme', 'dark');
+      }
     </script>
-
     {% include navbar.html %}
 
     {% include profile.html %}
@@ -26,6 +30,8 @@
     {% include blogs.html %}
 
     {% include scrollButton.html %}   
-</body>
 
+    {% include map.html %}
+
+  </body>
 </html>
