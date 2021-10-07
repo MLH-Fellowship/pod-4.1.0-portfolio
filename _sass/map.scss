@@ -1,0 +1,14 @@
+.map-container {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+#map-pod {
+  height: 500px;
+  width: 1000px;
+  z-index: 0;
+}
+
+.markerImage {
+  border-radius: 50%;
+}
