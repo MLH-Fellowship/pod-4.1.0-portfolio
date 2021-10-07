@@ -6,19 +6,7 @@ permalink: /project/
 <!DOCTYPE html>
 <html lang="en">
   {% include header.html %}
-  <style>
-    .back-button {
-      position: fixed;
-      bottom: 50px;
-      left: 30px;
-      background-color: #2461d1;
-      box-shadow: -1px 3px 10px -1px rgba(0, 0, 0, 0.2);
-      padding: 8px;
-      border-radius: 50%;
-      z-index: 3;
-      cursor: pointer;
-    }
-  </style>
+ 
   <body>
     <div
       style="
@@ -28,17 +16,11 @@ permalink: /project/
         -webkit-backdrop-filter: blur(6px);
         border-radius: 10px;
         border: 1px solid rgba(255, 255, 255, 0.356);
-        /* height: 100%;
-        width: 100%; */
+        height: 100%;
+        width: 100%;
       "
       class="banner"
     >
-      <div class="back-button" onclick="window.location.href='/'">
-        <img
-          src="https://img.icons8.com/ios-glyphs/90/ffffff/circled-left.png"
-          style="width: 40px; height: 40px"
-        />
-      </div>
       <div class="container">
         <div class="logo">
           <a href="/">
@@ -108,6 +90,7 @@ permalink: /project/
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </p>
+      {% include back-button.html %}      
     </div>
     <script src="/assets/js/darkModeSwitch.js"></script>
   </body>
