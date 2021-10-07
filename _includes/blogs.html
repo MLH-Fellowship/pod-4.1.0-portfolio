@@ -1,4 +1,5 @@
-<h2>Blogs</h2>
+<div class="blogs-div">
+<h2 data-aos="fade-up" data-aos-duration="500"><span>Blogs</span></h2>
 <div class="card-container">
     {% for item in site.data.blogs %}
     {% if item.blog-name %}
@@ -6,7 +7,7 @@
     {% else %}
     <a>
     {% endif %}
-      <div class="card">
+      <div class="card" data-aos="fade-up" data-aos-duration="500">
         <div class="info">
           <p class="title topic">{{ item.topic }}</p>
            <p class="author">{{ item.author }}</p>
@@ -16,3 +17,4 @@
     </a>
     {% endfor %}
   </div>
+</div>

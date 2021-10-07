@@ -1,4 +1,5 @@
-<h2>Projects</h2>
+<div class="projects-div">
+<h2 data-aos="fade-up" data-aos-duration="500"><span>Projects</span></h2>
 <div class="card-container">
     {% for item in site.data.projects %}
     {% if item.page-name %}
@@ -6,7 +7,7 @@
     {% else %}
     <a>
     {% endif %}
-      <div class="card">
+      <div class="card" data-aos="fade-up" data-aos-duration="500">
         <div class="info">
           <p class="title">{{ item.title }}</p>
           <p class="location">{{ item.event }}</p>
@@ -16,4 +17,5 @@
     </a>
     {% endfor %}
   </div>
+</div>
   
