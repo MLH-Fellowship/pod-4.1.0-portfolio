@@ -1,53 +1,29 @@
-// .logo {
-//   height: 100px;
-//   width: 100px;
-
-// }
-
-.background {
-  background: url('/assets/img/3.jpg'); 
-  background-repeat:repeat;
-  background-size: cover;
+.background{
+  width:100%;
+  background: url('/assets/img/devyansh.jpg');
   background-position: center;
-  
-  .profile {
-    background-color: #133667 !important;
-    text-align: center;
-    height: fit-content;
-    height: min-content;
-    margin-bottom: 50px;
-    padding-bottom: 10px;
-  
-    // h1 {
-    //   font-size: 50px;
-    //   font-weight: 700;
-    //   color: white;
-    //   margin: 0;
-    // }
-  
-    img {
-      // border-radius: 50%;
-      height: 500px;
-      width: 200px;
-      background-color: #fff;
-      height: min-content;
-      height: fit-content;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 100px;
-      margin-bottom: auto;
-      margin-top: auto;
-      display: inline;
-      padding: 20px;
-     
-    }
-  
-    .profile-picture {
-      background-color: #000000;
-      margin-bottom: 30px;
-      margin-top: 30px;
-      height: min-content;
-      height: fit-content;
-    }
-  }
+  background-size: cover;
+}
+.profile{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  // background-color: hsl(0, 0%, 0%);
+  text-align: left;
+  font-size: large;
+}
+.p-text{
+  margin-top: 100px;
+  font-size: x-large;
+  font-weight: 900;
+
+}
+
+.profile-picture{
+  margin-left:-120px;
+  margin-bottom: +50px;
+
+  width: 500px;
+  height:400px;
 }
