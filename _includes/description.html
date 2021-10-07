@@ -2,22 +2,20 @@
 
 <!-- pod fellow -->
 <div class="row col-12 container">
-    {% for i in (1..3)%}
-    {% for j in (0..14) offset: continue %}
-      <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mb-3" >
+    {% for item in site.data.fellows %}
+    <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mb-3" >
         <div class="fellow-card" style="width:100%; height:100% ;">
-            <img src="./assets/img/{{ site.data.fellows[j].img }}" alt="" />
+            <img src="./assets/img/{{ item.img }}" alt="" />
             <div class="data">
-                <h2>{{ site.data.fellows[j].name }}</h2>
-                <p>{{ site.data.fellows[j].position }}</p>
-                <i>{{ site.data.fellows[j].location }}</i>
+                <h2>{{ item.name }}</h2>
+                <p>{{ item.position }}</p>
+                <i>{{ item.location }}</i>
                 <br>
-                <a href="{{site.data.fellows[j].github}}" class="fab fa-lg fa-github" target="_blank"></a>
-                <a href="{{site.data.fellows[j].linkedIn}}" class="fab fa-lg fa-linkedin" target="_blank"></a>
+                <a href="{{item.github}}" class="fab fa-lg fa-github" target="_blank"></a>
+                <a href="{{item.linkedIn}}" class="fab fa-lg fa-linkedin" target="_blank"></a>
             </div>
         </div>
-      </div>
-    {% endfor %}
+    </div>
     {% endfor %}
 </div>
 
