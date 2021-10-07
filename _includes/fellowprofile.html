@@ -9,6 +9,10 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
     <script> 
+    let vantacolor = 0x1631;
+    if (localStorage.getItem('darkSwitch') === 'dark'){
+        vantacolor = 0x28293d
+    }
         VANTA.WAVES({
                 el: "#vantajs",
                 mouseControls: true,
@@ -17,7 +21,7 @@
                
                 scale: 1.00,
                 scaleMobile: 1.00,
-                color: 0x1631
+                color: vantacolor
             })
 </script>
 </section>
