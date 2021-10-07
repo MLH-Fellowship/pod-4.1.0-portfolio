@@ -1,29 +1,65 @@
-.background{
-  width:100%;
-  background: url('/assets/img/devyansh.jpg');
-  background-position: center;
+$assetPath_small: "/assets/img/jeremy-thomas-small.jpg";
+$assetPath_large: "/assets/img/jeremy-thomas-large.jpg";
+
+.background {
+  width: 100%;
+  background: url($assetPath_large);
   background-size: cover;
+  min-width: fit-content;
 }
-.profile{
-  width:100%;
-  display:flex;
-  align-items:center;
+.profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  // background-color: hsl(0, 0%, 0%);
   text-align: left;
   font-size: large;
 }
-.p-text{
+.p-text {
   margin-top: 100px;
   font-size: x-large;
   font-weight: 900;
-
+  color: whitesmoke;
 }
 
-.profile-picture{
-  margin-left:-120px;
-  margin-bottom: +50px;
+.profile-picture {
+  margin-left: -120px;
+  margin-bottom: -10px;
 
+  align-content: flex-end;
   width: 500px;
-  height:400px;
+  height: 250px;
+}
+
+.profile-picture img {
+  width: 60%;
+  margin-left: auto;
+  margin-bottom: auto;
+  object-fit: cover;
+}
+
+@media (min-width: 375px) and (max-width: 400px), (min-width: 3600px) {
+  .background {
+    background-image: url($assetPath_small);
+  }
+}
+
+@media (max-width: 852px) {
+  .profile-picture img {
+    margin-left: 100px;
+    //margin-top: 20px;
+  }
+}
+
+@media (max-width: 501px) {
+  .profile-picture img {
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .p-text {
+    font-size: medium;
+  }
 }
