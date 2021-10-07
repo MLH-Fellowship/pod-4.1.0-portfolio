@@ -1,64 +1,104 @@
+- name: Grace Omotoso
+  img: amanda.jpg
+  location: Murfreesboro, Tennessee, United States
+  position : Pod Leader
+  github : https://github.com/grace-omotoso
+  linkedIn : https://www.linkedin.com/
+  
 - name: Akhil Bhalerao
   img: akhil.jpg
   location: Silvassa, India
   position : MLH Fellow
+  github : https://github.com/iamakkkhil
+  linkedIn : https://www.linkedin.com/in/akhilbhalerao/
 
 - name: Apurva Sharma
   img: aaron.jpg
   location: Chhattisgrah, India
   position : MLH Fellow
+  github : https://github.com/Apurva-tech
+  linkedIn : https://www.linkedin.com/in/apurva866/
 
 - name: Aman Raj
   img: aman.jpeg
   location: Bihar, India
   position : MLH Fellow
+  github : https://github.com/AshAman999
+  linkedIn : https://www.linkedin.com/in/aman-raj-871b5a1aa/
 
 - name: Devyansh Chawla
   img: devyansh.jpg
   location: Haryana, India
   position : MLH Fellow
+  github : https://github.com/thedevyansh
+  linkedIn : https://www.linkedin.com/in/devyanshchawla/
 
 - name: Henok Tadele
   img: aaron.jpg
   location: Location
   position : MLH Fellow
+  github : https://github.com/
+  linkedIn : https://www.linkedin.com/feed/
 
 - name: Hugo Castro
   img: aaron.jpg
   location: Talca, Chile
   position : MLH Fellow
+  github : https://github.com/HugoCL
+  linkedIn : https://www.linkedin.com/in/hugocastrocl/
 
 - name: Manasvi Alimchandani
   img: manasvi.jpeg
   location: Rajasthan, India
   position : MLH Fellow
+  github : https://github.com/Manasvi070902
+  linkedIn : https://www.linkedin.com/in/manasvi-alimchandani-934b49197/
 
 - name: Manisha Jhunjhunwala
   img: manisha.jpg
   location: Kolkata, India
   position : MLH Fellow
+  github : https://github.com/ManishaJhunjhunwala
+  linkedIn : https://www.linkedin.com/in/manisha-jhunjhunwala/
 
 - name: Naman Kalra
   img: naman.jpg
   location: Haryana,India
   position : MLH Fellow
+  github : https://github.com/Naman-1234
+  linkedIn : https://www.linkedin.com/in/naman-kalra-9192571aa/
 
 - name: Nishtha Nishtha
   img: aaron.jpg
   location: Haryana,India
   position : MLH Fellow
+  github : https://github.com/Nishtha0801
+  linkedIn : https://www.linkedin.com/in/nishtha0801/
 
 - name: Priyaraj
   img: priyaraj.png
   location: New Delhi, India
   position : MLH Fellow
+  github : https://github.com/Priyaraj17
+  linkedIn : https://www.linkedin.com/in/priyaraj17/
 
 - name: Raunak Kumar
   img: raunak.jpeg
   location: Odisha, India
   position : MLH Fellow
+  github : https://github.com/Raunakk02
+  linkedIn : https://www.linkedin.com/in/raunak-kumar-8a4397194/
 
 - name: Yogesh Kumar
   img: aaron.jpg
   location: Location
   position : MLH Fellow
+  github : https://github.com/
+  linkedIn : https://www.linkedin.com/feed/
+
+- name: Rudransh Sharma
+  img: aaron.jpg
+  location: Odisha, India
+  position : MLH Fellow
+  github : https://github.com/rudranshsharma123
+  linkedIn : https://www.linkedin.com/in/rudransh-sharma123/
