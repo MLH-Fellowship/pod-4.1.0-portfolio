@@ -1,0 +1,45 @@
+---
+title: Fellow
+permalink : /fellow/
+fellow: Akhil Bhalerao
+---
+<!DOCTYPE html>
+<html lang="en">
+{% include header.html %}
+
+<body>
+    <script>
+        const theme = localStorage.getItem('darkSwitch');
+        if(theme !== null) {
+            document.body.setAttribute('data-theme', 'dark');
+        }
+    </script>
+    
+{% for item in site.data.fellows %}
+{% if item.name == page.fellow %}
+
+    {% include loader.html %}
+    
+    {% include navbar.html %}
+
+    {% include fellowprofile.html %}
+
+    {% include fellowbio.html %}
+
+    {% include darkModeScript.html %}
+
+    {% include timeline.html %}
+    
+    {% endif %}
+    {% endfor %}
+</script>
+<script type="text/javascript" src="/assets/js/vanilla-tilt.js"></script>
+<script type="text/javascript">
+VanillaTilt.init(document.querySelectorAll(".github-stats "), {
+    max: 25,
+    speed: 400
+});
+</script>  
+</body>
+
+</html>
