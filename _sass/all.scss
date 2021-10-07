@@ -102,3 +102,39 @@ a {
     padding-bottom: 10px;
   }
 }
+
+
+// Leaderboard
+table {
+  justify-items: center;
+  margin: auto;
+  width: 65%;
+  border-right-color: #ffffff;
+  font-size: 18px;
+  /* /* border: 1px solid #343a40; */
+  border-collapse: collapse; 
+}
+
+th, td {
+  /* border: 1px solid #343a40; */
+  padding: 16px 24px;
+  text-align: center;
+}
+
+th {
+  background-color: #1d539f;
+  color: #fff;
+  width: 25%;
+}
+
+tbody {
+  tr:nth-child(odd){
+    background-color: #f8f9fa;
+  }
+}
+
+tbody {
+  tr:nth-child(even){
+    background-color: #e9ecef;
+  }
+}
