@@ -9,6 +9,7 @@
 
 {% include header.html %}
 {% include cursor.html %}
+{% include scrollButton.html %}
 <body>
     <script>
       const theme = localStorage.getItem('darkSwitch');
@@ -16,10 +17,9 @@
         document.body.setAttribute('data-theme', 'dark');
       }
     </script>
+    {% include navbar.html %}
 
     {% include loader.html %}
-
-    {% include navbar.html %}
 
     {% include profile.html %}
     
@@ -32,6 +32,8 @@
     {% include darkModeScript.html %}
 
     {% include blogs.html %}
+
+    {% include scrollButton.html %} 
 
     {% include map.html %}    
 
