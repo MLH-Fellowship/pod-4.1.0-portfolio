@@ -3,7 +3,7 @@
 <div class="card-container">
     {% for item in site.data.blogs %}
     {% if item.blog-name %}
-    <a href="/blogs/{{ item.blog-name }}">
+    <a href="/{{ item.blog-name }}">
     {% else %}
     <a>
     {% endif %}
