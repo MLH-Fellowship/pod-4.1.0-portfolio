@@ -10,21 +10,42 @@
   }
 
   [data-theme="dark"] {
-    header, .profile, .banner {
+    header, .banner {
       background-color: #28293D !important;
     }
 
     h1, h2, h4, .custom-control-label, .title {
       color: #CFCFD4 !important;
     }
-
+     .profile {
+    background: url("/assets/img/dark_back_olena.jpg");
+    background-position: center;
+    background-size: cover;
+  }
     .card {
       background-color: #28293D !important;
     }
-
+    .time-card {
+      background-color: #28293D !important;
+    }
+    .time-card h4,h5 {
+      color : #cfcfd4
+    }
+   
+    footer {
+      background-color: #28293D !important;
+    }
     .location {
       color: #818497 !important;
     }
+ .dates,
+  p {
+    color: #818497 !important;
+  }
+
+    .profile .p-text p {
+    color: whitesmoke !important;
+  }
     .card-blogs p{
       color: white !important;
     }
@@ -43,6 +64,10 @@
       background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #28293C 60%);
     }
 
+  }
+
+
+
     .leaderboard {
       tr{
         background-color: #28293D !important;
@@ -53,4 +78,5 @@
         background-color: #133667
       }
     }
-  }
+  
+

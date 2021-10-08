@@ -10,11 +10,9 @@
 @import 'project';
 @import 'fellow';
 @import 'map';
-@import 'cursor';
 @import 'scrollButton';
 @import 'loader';
 @import 'blogs';
-@import 'about-us';
 
 .card-container {
   display: grid;
@@ -61,7 +59,9 @@ h2 {
   border-radius: 0.375rem;
   padding: 1.5em;
   font-size: 1.2em;
+  
 }
+
 
 a {
   color: black;
@@ -232,24 +232,18 @@ path {
   }
 }
 
-.meet-the-pod-div, .about-us-div .pod-stats-div, .projects-div, .blogs-div, .pod-leaderboard-div, .fellow-locator-div{
+.meet-the-pod-div, .about-us-div, .pod-stats-div, .projects-div, .blogs-div, .pod-leaderboard-div, .fellow-locator-div {
   margin: 80px 0;
 }
 
-.meet-the-pod-div span, .about-us-div span, .pod-stats-div span, .pod-leaderboard-div span, .projects-div span, .blogs-div span, .fellow-locator-div span {
+.meet-the-pod-div .meet-the-pod-heading, .about-us-div span, .pod-stats-div .pod-stats-heading, .pod-leaderboard-div .leaderboard-heading, .projects-div .projects-heading, .blogs-div .blogs-heading, .fellow-locator-div .fellow-locator-heading {
   font-size: 35px;
-  background: linear-gradient(180deg,rgba(255,255,255,0) 60%, rgba(28, 83, 159, 0.2) 60%);
 }
 
 @media (max-width: 500px) {
-  .meet-the-pod-div span, .pod-stats-div span, .projects-div span, .blogs-div span, .fellow-locator-div span {
+  .meet-the-pod-div .meet-the-pod-heading, .pod-stats-div .pod-stats-heading, .pod-leaderboard-div .leaderboard-heading, .projects-div .projects-heading, .blogs-div .blogs-heading, .fellow-locator-div .fellow-locator-heading {
     font-size: 25px;
   }
-}
-
-.about-us-div {
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
 // Leaderboard
