@@ -33,6 +33,15 @@
     .profile .p-text p {
     color: whitesmoke !important;
   }
+    .card-blogs p{
+      color: white !important;
+    }
+    .card-blogs:before, .card-blogs:after {
+      background: #28293D !important;
+    }
+    .dates, p {
+      color: #818497 !important;
+    }
 
     .fellow-card .data h2,   .fellow-card .data p{
       color: #000000 !important ;
