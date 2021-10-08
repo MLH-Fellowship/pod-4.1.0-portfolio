@@ -222,11 +222,11 @@ path {
   }
 }
 
-.meet-the-pod-div, .pod-stats-div, .projects-div, .blogs-div, .fellow-locator-div {
+.meet-the-pod-div, .pod-stats-div, .projects-div, .blogs-div, .pod-leaderboard-div, .fellow-locator-div{
   margin: 80px 0;
 }
 
-.meet-the-pod-div span, .pod-stats-div span, .projects-div span, .blogs-div span, .fellow-locator-div span {
+.meet-the-pod-div span, .pod-stats-div span, .pod-leaderboard-div span, .projects-div span, .blogs-div span, .fellow-locator-div span {
   font-size: 35px;
   background: linear-gradient(180deg,rgba(255,255,255,0) 60%, rgba(28, 83, 159, 0.2) 60%);
 }
@@ -234,5 +234,38 @@ path {
 @media (max-width: 500px) {
   .meet-the-pod-div span, .pod-stats-div span, .projects-div span, .blogs-div span, .fellow-locator-div span {
     font-size: 25px;
+  }
+}
+
+// Leaderboard
+table {
+  justify-items: center;
+  margin: auto;
+  width: 65%;
+  border-right-color: #ffffff;
+  font-size: 18px;
+  border-collapse: collapse; 
+}
+
+th, td {
+  padding: 16px 24px;
+  text-align: center;
+}
+
+th {
+  background-color: #1d539f;
+  color: #fff;
+  width: 25%;
+}
+
+tbody {
+  tr:nth-child(odd){
+    background-color: #f8f9fa;
+  }
+}
+
+tbody {
+  tr:nth-child(even){
+    background-color: #e9ecef;
   }
 }
