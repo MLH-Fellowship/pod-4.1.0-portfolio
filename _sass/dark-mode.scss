@@ -10,14 +10,18 @@
   }
 
   [data-theme="dark"] {
-    header, .profile, .banner {
+    header, .banner {
       background-color: #28293D !important;
     }
 
     h1, h2, h4, .custom-control-label, .title {
       color: #CFCFD4 !important;
     }
-
+     .profile {
+    background: url("/assets/img/dark_back_olena.jpg");
+    background-position: center;
+    background-size: cover;
+  }
     .card {
       background-color: #28293D !important;
     }
@@ -34,6 +38,14 @@
     .location {
       color: #818497 !important;
     }
+ .dates,
+  p {
+    color: #818497 !important;
+  }
+
+    .profile .p-text p {
+    color: whitesmoke !important;
+  }
     .card-blogs p{
       color: white !important;
     }
@@ -48,6 +60,14 @@
       color: #000000 !important ;
     }
 
+    .meet-the-pod-div span, .pod-stats-div span, .projects-div span, .blogs-div span, .fellow-locator-div span {
+      background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #28293C 60%);
+    }
+
+  }
+
+
+
     .leaderboard {
       tr{
         background-color: #28293D !important;
@@ -58,4 +78,5 @@
         background-color: #133667
       }
     }
-  }
+  
+
