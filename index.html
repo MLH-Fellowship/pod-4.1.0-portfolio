@@ -18,7 +18,7 @@
     <script>
       const theme = localStorage.getItem('darkSwitch');
       if (theme !== null) {
-        document.body.setAttribute('data-theme', 'dark');
+        docindex.htmlument.body.setAttribute('data-theme', 'dark');
       }
     </script>
     {% include navbar.html %}
@@ -40,10 +40,12 @@
     {% include blogs.html %}
 
     {% include scrollButton.html %} 
-
+    
     {% include map.html %}    
-
+    
     {% include google-analytics.html %}    
+
+    {% include footer.html %}
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
