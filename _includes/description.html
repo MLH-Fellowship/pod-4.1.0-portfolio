@@ -1,28 +1,28 @@
 <h2>Meet the Pod</h2>
-
-<!-- pod fellow -->
-<div class="row col-12 container">
-    {% for item in site.data.fellows %}
-    <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mb-3" >
-        <div class="fellow-card" style="width:100%; height:100% ;">
-            <img src="./assets/img/{{ item.img }}" alt="" />
-            <div class="data">
-                <h2>{{ item.name }}</h2>
-                <p>{{ item.position }}</p>
-                <i>{{ item.location }}</i>
-                <br>
-                <a href="{{item.github}}" class="fab fa-lg fa-github" target="_blank"></a>
-                <a href="{{item.linkedIn}}" class="fab fa-lg fa-linkedin" target="_blank"></a>
-            </div>
+<section>
+  <div class="container">
+      <div class="row">
+          <div class="col-12 text-right controllers">
+              <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                  <i class="fa fa-arrow-left"></i>
+              </a>
+              <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                  <i class="fa fa-arrow-right"></i>
+              </a>
+          </div>
+          <div class="col-12">
+              {% include carousal-large.html %}
+          </div>
+          <div class="col-12">
+            {% include carousal-small.html %}
         </div>
-    </div>
-    {% endfor %}
-</div>
-
+      </div>
+  </div>
+</section>
 
 <!-- Pod Stats -->
-<h2>Pod Stats</h2>
-<div class="stats">
+<h2 data-aos="fade-up" data-aos-duration="500"><span>Pod Stats</span></h2>
+<div class="stats" data-aos="fade-up" data-aos-duration="500">
   <!-- Repo Badge -->
   <a href="https://github.com/MLH-Fellowship/pod-4.1.0-portfolio">
     <img alt="Issues" src="https://github-readme-stats.vercel.app/api/pin/?username=MLH-Fellowship&repo=pod-4.1.0-portfolio" />
@@ -45,4 +45,5 @@
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/MLH-Fellowship/pod-4.1.0-portfolio?style=for-the-badge" />
     </a>
   </p>
+</div>
 </div>
