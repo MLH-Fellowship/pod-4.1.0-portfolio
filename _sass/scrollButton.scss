@@ -1,0 +1,78 @@
+
+#scroll-button {
+    display: inline-block;
+    background-color:#133766;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 60px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #scroll-button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #scroll-button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #scroll-button:active {
+    background-color: #555;
+  }
+  #scroll-button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .chevrons {
+    padding: 4px 0 0 0;
+    width: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+  }
+  .chevrondown {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    bottom: 40px;
+    transform: rotate(-135deg);
+    position: relative;
+  }
+  .chevrondown:nth-child(even) {
+    animation: pulse 500ms ease infinite alternate;
+  }
+  .chevrondown:nth-child(odd) {
+    animation: pulse 500ms ease infinite alternate 250ms;
+  }
+  @keyframes pulse {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 0.5;
+    }
+  }
+.chevrons.show{
+  opacity: 1;
+    visibility: visible;
+}
