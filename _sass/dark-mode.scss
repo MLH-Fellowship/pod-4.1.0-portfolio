@@ -10,14 +10,18 @@
   }
 
   [data-theme="dark"] {
-    header, .profile, .banner {
+    header, .banner {
       background-color: #28293D !important;
     }
 
-    h1, h2, .custom-control-label, .title {
+    h1, h2, h4, .custom-control-label, .title {
       color: #CFCFD4 !important;
     }
-
+     .profile {
+    background: url("/assets/img/dark_back_olena.jpg");
+    background-position: center;
+    background-size: cover;
+  }
     .card {
       background-color: #28293D !important;
     }
@@ -34,7 +38,20 @@
     .location {
       color: #818497 !important;
     }
+ .dates,
+  p {
+    color: #818497 !important;
+  }
 
+    .profile .p-text p {
+    color: whitesmoke !important;
+  }
+    .card-blogs p{
+      color: white !important;
+    }
+    .card-blogs:before, .card-blogs:after {
+      background: #28293D !important;
+    }
     .dates, p {
       color: #818497 !important;
     }
@@ -47,6 +64,7 @@
       background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #28293C 60%);
     }
 
+  }
     .leaderboard {
       tr{
         background-color: #28293D !important;
@@ -56,5 +74,10 @@
       th{
         background-color: #133667
       }
+    
+    .section-footer{
+      background-color: #28293D;
+      color: white;
     }
+  
   }

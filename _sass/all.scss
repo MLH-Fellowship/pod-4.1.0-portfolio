@@ -3,15 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 @import 'description';
 @import 'navbar';
+@import 'footer';
 @import 'profile';
 @import 'page';
 @import 'dark-mode';
 @import 'project';
 @import 'fellow';
 @import 'map';
-@import 'cursor';
 @import 'scrollButton';
 @import 'loader';
+@import 'blogs';
 
 .card-container {
   display: grid;
@@ -113,7 +114,14 @@ a {
   border-radius: 25px;
   position: relative;
   margin: 3em;
-  margin-right: auto;
+  margin-right: 0;
+}
+@media only screen and (max-width: 768px) {
+  .project-card  {
+    // margin: 0;
+    margin-left: 2px;
+    margin-right: 4px;
+  }
 }
 .project-card h2 {
   text-align: left;
@@ -224,17 +232,16 @@ path {
   }
 }
 
-.meet-the-pod-div, .pod-stats-div, .projects-div, .blogs-div, .pod-leaderboard-div, .fellow-locator-div{
+.meet-the-pod-div, .about-us-div, .pod-stats-div, .projects-div, .blogs-div, .pod-leaderboard-div, .fellow-locator-div {
   margin: 80px 0;
 }
 
-.meet-the-pod-div span, .pod-stats-div span, .pod-leaderboard-div span, .projects-div span, .blogs-div span, .fellow-locator-div span {
+.meet-the-pod-div .meet-the-pod-heading, .about-us-div span, .pod-stats-div .pod-stats-heading, .pod-leaderboard-div .leaderboard-heading, .projects-div .projects-heading, .blogs-div .blogs-heading, .fellow-locator-div .fellow-locator-heading {
   font-size: 35px;
-  background: linear-gradient(180deg,rgba(255,255,255,0) 60%, rgba(28, 83, 159, 0.2) 60%);
 }
 
 @media (max-width: 500px) {
-  .meet-the-pod-div span, .pod-stats-div span, .projects-div span, .blogs-div span, .fellow-locator-div span {
+  .meet-the-pod-div .meet-the-pod-heading, .pod-stats-div .pod-stats-heading, .pod-leaderboard-div .leaderboard-heading, .projects-div .projects-heading, .blogs-div .blogs-heading, .fellow-locator-div .fellow-locator-heading {
     font-size: 25px;
   }
 }
@@ -270,4 +277,10 @@ tbody {
   tr:nth-child(even){
     background-color: #e9ecef;
   }
+}
+
+// About us section
+.about-section {
+  padding-left: 10%;
+  padding-right: 10%;
 }
