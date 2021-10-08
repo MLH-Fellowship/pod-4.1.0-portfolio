@@ -12,7 +12,6 @@
 @import 'scrollButton';
 @import 'loader';
 @import 'blogs';
-@import 'about-us';
 
 .card-container {
   display: grid;
@@ -242,11 +241,6 @@ path {
   .meet-the-pod-div .meet-the-pod-heading, .pod-stats-div .pod-stats-heading, .pod-leaderboard-div .leaderboard-heading, .projects-div .projects-heading, .blogs-div .blogs-heading, .fellow-locator-div .fellow-locator-heading {
     font-size: 25px;
   }
-}
-
-.about-us-div {
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
 // Leaderboard
