@@ -1,0 +1,22 @@
+<div id="carouselExampleIndicators2" class="carousel slide small-carousal" data-ride="carousel">
+    <div class="carousel-inner">
+      {% for i in (0...3)%}
+      {% if i == 0 %}
+      <div class="carousel-item active">
+        <div class="row col-12 container">
+          {% for j in (0...14) limit: 1 %}
+          {% include fellow.html %}
+          {% endfor %}
+        </div>
+    </div>
+      {% endif %}
+        <div class="carousel-item">
+            <div class="row col-12 container">
+              {% for j in (0...14) limit: 1 offset:continue %}
+              {% include fellow.html %}
+              {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
