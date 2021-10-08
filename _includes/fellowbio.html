@@ -10,22 +10,22 @@
 <script>
 
    if (localStorage.getItem('darkSwitch') === 'dark'){
-        document.getElementById('gitstats').src="https://github-readme-stats.vercel.app/api?username={{ item.github }}&show_icons=true&theme=tokyonight";
-        document.getElementById('gitlang').src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ item.github }}&langs_count=3&theme=tokyonight";
+        document.getElementById('gitstats').src="https://github-readme-stats.vercel.app/api?username={{ item.username }}&show_icons=true&theme=tokyonight";
+        document.getElementById('gitlang').src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ item.username }}&langs_count=3&theme=tokyonight";
    }else{
-    document.getElementById('gitstats').src="https://github-readme-stats.vercel.app/api?username={{ item.github }}&show_icons=true&theme=default";
-    document.getElementById('gitlang').src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ item.github }}&langs_count=3&theme=default";
+    document.getElementById('gitstats').src="https://github-readme-stats.vercel.app/api?username={{ item.username }}&show_icons=true&theme=default";
+    document.getElementById('gitlang').src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ item.username }}&langs_count=3&theme=default";
    }
 
    // for toggle button
    document.getElementById('dark-theme-toggle').addEventListener('change', (event) => {
     if (localStorage.getItem('darkSwitch') === 'dark'){
-        document.getElementById('gitstats').src="https://github-readme-stats.vercel.app/api?username={{ item.github }}&show_icons=true&theme=default";
-        document.getElementById('gitlang').src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ item.github }}&langs_count=3&theme=default";
+        document.getElementById('gitstats').src="https://github-readme-stats.vercel.app/api?username={{ item.username }}&show_icons=true&theme=default";
+        document.getElementById('gitlang').src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ item.username }}&langs_count=3&theme=default";
         
    }else{
-        document.getElementById('gitstats').src="https://github-readme-stats.vercel.app/api?username={{ item.github }}&show_icons=true&theme=tokyonight";
-        document.getElementById('gitlang').src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ item.github }}&langs_count=3&theme=tokyonight";
+        document.getElementById('gitstats').src="https://github-readme-stats.vercel.app/api?username={{ item.username }}&show_icons=true&theme=tokyonight";
+        document.getElementById('gitlang').src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ item.username }}&langs_count=3&theme=tokyonight";
    }
 })
 </script>
