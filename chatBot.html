@@ -1,0 +1,73 @@
+---
+title: Chatbot
+permalink: /chatbot/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+{% include header.html %}
+
+<body>
+    <script>
+        const theme = localStorage.getItem('darkSwitch');
+        if(theme !== null) {
+            document.body.setAttribute('data-theme', 'dark');
+        }
+    </script>
+      {% include loader.html %}
+    {% include darkModeScript.html %}
+    <div
+      style="
+        background: rgba(7, 119, 247, 0.897);
+        box-shadow: 0 8px 32px 0 rgba(16, 28, 190, 0.37);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(6px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.356);
+        height: 100%;
+        width: 100%;
+      "
+      class="banner"
+    >
+    <div class="container">
+        <div class="logo">
+          <a href="/">
+            <!-- replaced the mlh fellowship logo with the new mlh prep logo -->
+            <img
+              style="
+                background: rgba(74, 144, 226, 0.25);
+                box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                backdrop-filter: blur(4px);
+                -webkit-backdrop-filter: blur(4px);
+                border-radius: 10px;
+                border: 1px solid rgba(255, 255, 255, 0.18);
+              "
+              src="/assets/img/prep_logo.svg"
+            />
+          </a>
+        </div>
+        <div class="title">Chatbot</div>
+      </div>
+      </div>
+
+    <div class="chatbot" style="
+        width:100%;
+        display: grid;
+        place-items:center;
+        margin-top:25px;
+    
+    ">
+        <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/c386ab46-d5ed-40ee-ab38-720920ea8d93"></iframe>
+    </div>
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+    chat-title="MLHPrep_ChatBot"
+    agent-id="c386ab46-d5ed-40ee-ab38-720920ea8d93"
+    language-code="en"
+    ></df-messenger>
+    
+</script>
+</body>
+
+</html>
