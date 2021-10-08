@@ -31,6 +31,143 @@ body{
     border-radius: 0.375rem;
     padding: 1em;
   }
+
+  // Navbar
+  header{
+    display: flex !important;
+  }
+  .fellow-nav-bar {
+    width: 100%;
+    font-family: 'Poppins', serif;
+    font-weight: 700 !important;
+  }
+  
+  .fellow-nav-content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 9;
+  }
+  .fellow-nav-content .nav-logo {
+    height: 60px;
+    margin: 5px;
+  }
+  
+  .fellow-nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fellow-nav-logo img {
+    width: 200px;
+  }
+  
+  .initiallogo {
+    background-color: #133667;
+    justify-content: space-around;
+  }
+  
+  .button {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+  
+  .finallogo {
+    background-color: #1d539f;
+    justify-content: space-between;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-control-label {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .custom-switch.custom-switch-lg {
+    padding-bottom: 0.5rem;
+    padding-left: 2.25rem;
+  
+    & .custom-control-label {
+      padding-left: .75rem;
+      padding-top: 0.15rem;
+  
+      &::before {
+        border-radius: 1rem;
+        height: 1.5rem;
+        width: 2.5rem;
+      }
+  
+      &::after {
+        border-radius: .65rem;
+        height: calc(1.5rem - 4px);
+        width: calc(1.5rem - 4px);
+      }
+    }
+    
+    .custom-control-input:checked ~ .custom-control-label::after{
+    transform: translateX(1rem);
+    }
+  }
+  
+  @media (min-width: 550px) and (max-width: 820px) {
+    .fellow-nav-logo img {
+      width: 150px;
+    }
+  
+    .fellow-nav-bar {
+      font-size: 15px;
+    }
+  }
+  
+  @media (min-width: 300px) and (max-width: 549px) {
+    .fellow-nav-logo img {
+      width: 100px;
+    }
+  
+    .fellow-nav-bar {
+      font-size: 13px;
+    }
+  }
+  // Profile pic
+  .fellow-profile {
+    background-color: #133667 !important;
+    text-align: center;
+    height: fit-content;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    padding-top: 70px;
+    z-index: 9;
+  
+    h1 {
+      font-size: 50px;
+      font-weight: 700;
+      color: white;
+      margin: 0;
+    }
+  
+    img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      display: inline;
+      padding: 20px;
+    }
+  
+    .fellow-profile-picture {
+      margin-bottom: 30px;
+      height: fit-content;
+    }
+  }
   /* Styling for Footer */
 
 footer {
