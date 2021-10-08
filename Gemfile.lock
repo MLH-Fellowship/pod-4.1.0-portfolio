@@ -61,7 +61,6 @@ GEM
 PLATFORMS
   ruby
 
-
 DEPENDENCIES
   jekyll (~> 4.1.1)
   tzinfo (~> 1.2)
