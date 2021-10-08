@@ -59,7 +59,10 @@
   padding: 20px;
   opacity: 0
 }
-.fa-linkedin {
+.fa-linkedin{
+  color: #38c !important;
+}
+.fa-twitter{
   color: #38c !important;
 }
 .data a:hover,
@@ -90,5 +93,8 @@
   }
   .controllers {
     display: none;
+  }
+  .fa-lg {
+    font-size: 15px !important;
   }
 }
