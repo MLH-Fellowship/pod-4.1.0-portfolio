@@ -111,7 +111,13 @@ a {
   border-radius: 25px;
   position: relative;
   margin: 3em;
-  margin-right: auto;
+  margin-right: 0;
+}
+@media only screen and (max-width: 768px) {
+  .project-card  {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 }
 .project-card h2 {
   text-align: left;
