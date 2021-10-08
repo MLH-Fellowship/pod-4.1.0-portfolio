@@ -11,6 +11,7 @@
 @import 'map';
 @import 'scrollButton';
 @import 'loader';
+@import 'blogs';
 
 .card-container {
   display: grid;
@@ -110,7 +111,14 @@ a {
   border-radius: 25px;
   position: relative;
   margin: 3em;
-  margin-right: auto;
+  margin-right: 0;
+}
+@media only screen and (max-width: 768px) {
+  .project-card  {
+    // margin: 0;
+    margin-left: 2px;
+    margin-right: 4px;
+  }
 }
 .project-card h2 {
   text-align: left;
