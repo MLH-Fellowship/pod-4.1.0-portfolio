@@ -115,8 +115,9 @@ a {
 }
 @media only screen and (max-width: 768px) {
   .project-card  {
-    margin-left: 1em;
-    margin-right: 1em;
+    // margin: 0;
+    margin-left: 2px;
+    margin-right: 4px;
   }
 }
 .project-card h2 {
