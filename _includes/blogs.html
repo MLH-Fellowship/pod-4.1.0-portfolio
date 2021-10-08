@@ -1,20 +1,29 @@
 <div class="blogs-div">
 <h2 data-aos="fade-up" data-aos-duration="500"><span>Blogs</span></h2>
 <div class="card-container">
+  <div class="blogs-wrapper">
     {% for item in site.data.blogs %}
     {% if item.blog-name %}
-    <a href="/blogs/{{ item.blog-name }}">
+    <a href="/{{ item.blog-name }}">
+
     {% else %}
     <a>
     {% endif %}
-      <div class="card" data-aos="fade-up" data-aos-duration="500">
-        <div class="info">
-          <p class="title topic">{{ item.topic }}</p>
-           <p class="author">{{ item.author }}</p>
-           <p class="dates">{{ item.date }}</p>  
-        </div>
+    <section class="cards-wrapper-blogs">
+      <div class="card-grid-space-blogs">
+        <a class="card-blogs" href="/{{ item.blog-name }}" style="--bg-img: url(/assets/img/{{ item.img }})">
+          <div class="glass">
+            <h1>{{ item.topic }}</h1>
+            <p class="des-blog">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim culpa aperiam repellat cupiditate libero?</p>
+            <div class="tags">
+              <div class="tag">Read More</div>
+            </div>
+          </div>
+        </a>
       </div>
-    </a>
+    </section>
+    
     {% endfor %}
+  </a>
   </div>
-</div>
+  </div>

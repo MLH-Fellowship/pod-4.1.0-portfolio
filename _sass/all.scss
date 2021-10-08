@@ -12,7 +12,9 @@
 @import 'cursor';
 @import 'scrollButton';
 @import 'loader';
+@import 'blogs';
 @import 'about-us';
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -111,7 +113,14 @@ a {
   border-radius: 25px;
   position: relative;
   margin: 3em;
-  margin-right: auto;
+  margin-right: 0;
+}
+@media only screen and (max-width: 768px) {
+  .project-card  {
+    // margin: 0;
+    margin-left: 2px;
+    margin-right: 4px;
+  }
 }
 .project-card h2 {
   text-align: left;
