@@ -12,3 +12,17 @@
 .markerImage {
   border-radius: 50%;
 }
+@media (min-width: 600px) and (max-width: 1000px) {
+  #map-pod {
+    height: 350px;
+    width: 600px;
+    z-index: 0;
+  }
+}
+@media (min-width: 350px) and (max-width: 600px) {
+  #map-pod {
+    height: 250px;
+    width: 350px;
+    z-index: 0;
+  }
+}

@@ -4,16 +4,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-  <body>
-
 {% include header.html %}
 {% include scrollButton.html %}
+
+<head>
+  <style>
+    df-mesenger {
+      transform: translateX(-50%) translateY(50%);
+    }
+  </style>
+</head>
 <body>
     <script>
       const theme = localStorage.getItem('darkSwitch');
       if (theme !== null) {
-        document.body.setAttribute('data-theme', 'dark');
+        docindex.htmlument.body.setAttribute('data-theme', 'dark');
       }
     </script>
     {% include navbar.html %}
@@ -21,6 +26,8 @@
     {% include loader.html %}
 
     {% include profile.html %}
+
+    {% include about-us.html %}
     
     {% include description.html %}
 
@@ -33,14 +40,18 @@
     {% include blogs.html %}
 
     {% include scrollButton.html %} 
-
+    
     {% include map.html %}    
-
+    
     {% include google-analytics.html %}    
+
+    {% include footer.html %}
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger style="margin-right: -500px;" chat-title="MLHPrep_ChatBot" agent-id="c386ab46-d5ed-40ee-ab38-720920ea8d93" language-code="en"></df-messenger>
   </body>
 </html>
