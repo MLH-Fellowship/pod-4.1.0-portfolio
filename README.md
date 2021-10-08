@@ -8,12 +8,12 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/MLH-Fellowship/pod-4.1.0-portfolio?style=for-the-badge&logo=git)](https://github.com/MLH-Fellowship/pod-4.1.0-portfolio/) 
 [![GitHub stars](https://img.shields.io/github/stars/MLH-Fellowship/pod-4.1.0-portfolio?style=for-the-badge)](https://github.com/MLH-Fellowship/pod-4.1.0-portfolio/stargazers)  
 [![GitHub forks](https://img.shields.io/github/forks/MLH-Fellowship/pod-4.1.0-portfolio?style=for-the-badge&logo=git)](https://github.com/MLH-Fellowship/pod-4.1.0-portfolio/network)
-[![Code size](https://img.shields.io/github/languages/code-size/MLH-Fellowship/pod-4.1.0-portfolio?style=for-the-badge)](https://github.com/MLH-Fellowship/pod-4.1.0-portfolio)
 [![Languages](https://img.shields.io/github/languages/count/MLH-Fellowship/pod-4.1.0-portfolio?style=for-the-badge)](https://github.com/MLH-Fellowship/pod-4.1.0-portfolio)
 [![Issues](https://img.shields.io/github/issues/MLH-Fellowship/pod-4.1.0-portfolio?style=for-the-badge&label=Issues)](https://github.com/MLH-Fellowship/pod-4.1.0-portfolio)
 [![Watchers](	https://img.shields.io/github/watchers/MLH-Fellowship/pod-4.1.0-portfolio?label=Watch&style=for-the-badge)](https://github.com/MLH-Fellowship/pod-4.1.0-portfolio/) 
 
-## Make your own!
+
+# Make your own!
 
 1. Use the Template button.
 2. Update `_config.yml` to contain your information.
@@ -80,13 +80,6 @@ layout: page
 
 
 # Development Instructions
-## Build on Docker 
-<a href="https://www.docker.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="60" height="60"/> </a> 
-
-
-```
-sudo docker-compose up
-```
 
 ### MacOs 
 <img src="https://img.icons8.com/color/48/000000/mac-logo.png"/>
@@ -110,8 +103,7 @@ Then run these commands to set up this project:
  bundle exec jekyll serve
 ```
 
-## Arch Linux ([Refer to arch wiki](https://wiki.archlinux.org/title/ruby#Setup))
-
+## Arch Based Distrubutions 
 ## <a href="https://www.linux.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> 
 
 Check if ruby is already installed by running 
