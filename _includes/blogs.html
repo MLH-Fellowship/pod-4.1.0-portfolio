@@ -1,9 +1,8 @@
 <h2>Blogs</h2>
 <div class="card-container">
-  <div class="blogs-wrapper">
     {% for item in site.data.blogs %}
     {% if item.blog-name %}
-    <!-- <a href="/blogs/{{ item.blog-name }}"> -->
+    <a href="/blogs/{{ item.blog-name }}">
     {% else %}
     <a>
     {% endif %}
@@ -19,8 +18,7 @@
           </div>
         </a>
       </div>
-    </section>
-    
+    </a>
     {% endfor %}
   </a>
   </div>
