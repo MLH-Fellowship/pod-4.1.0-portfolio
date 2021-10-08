@@ -14,7 +14,7 @@
       background-color: #28293D !important;
     }
 
-    h1, h2, .custom-control-label, .title {
+    h1, h2, h4, .custom-control-label, .title {
       color: #CFCFD4 !important;
     }
      .profile {
@@ -25,7 +25,16 @@
     .card {
       background-color: #28293D !important;
     }
-
+    .time-card {
+      background-color: #28293D !important;
+    }
+    .time-card h4,h5 {
+      color : #cfcfd4
+    }
+   
+    footer {
+      background-color: #28293D !important;
+    }
     .location {
       color: #818497 !important;
     }
@@ -56,6 +65,7 @@
     }
 
   }
+
 
 
     .leaderboard {

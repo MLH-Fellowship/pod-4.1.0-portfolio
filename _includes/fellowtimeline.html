@@ -1,0 +1,21 @@
+<h2 id="work">Work Experience</h2>
+<div class="timeline">
+    <ul>
+        {% for item in site.data.timeline %}
+      <li>
+        <div class="content time-card">
+          <h4>{{ item.role }} </h4>
+            
+         <p style="font-size: 1.2rem"><b>{{ item.company }}</b></p>
+          <p>{{ item.content }}</p>
+        </div>
+        <div class="time">
+          <h3>{{ item.dates }}</h3>
+        </div>
+      </li>
+      
+      {% endfor %}
+     
+      <div style="clear:both;"></div>
+    </ul>
+  </div>

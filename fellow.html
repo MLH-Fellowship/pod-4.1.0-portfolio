@@ -25,6 +25,9 @@ fellow: Grace Omotoso
     {% include fellowprofile.html %}
 
     {% include fellowbio.html %}
+    {% include felloweducation.html %}
+    {% include fellowtimeline.html %}
+    {% include fellowfooter.html %}
 
     {% include darkModeScript.html %}
 
@@ -32,10 +35,11 @@ fellow: Grace Omotoso
     
     {% endif %}
     {% endfor %}
-</script>
+
 <script type="text/javascript" src="/assets/js/vanilla-tilt.js"></script>
 <script type="text/javascript">
-VanillaTilt.init(document.querySelectorAll(".github-stats "), {
+
+VanillaTilt.init(document.querySelectorAll([".card ", ".github-stats", ".time-card"]), {
     max: 25,
     speed: 400
 });
