@@ -14,7 +14,7 @@
     <script>
       const theme = localStorage.getItem('darkSwitch');
       if (theme !== null) {
-        document.body.setAttribute('data-theme', 'dark');
+        docindex.htmlument.body.setAttribute('data-theme', 'dark');
       }
     </script>
     {% include navbar.html %}
@@ -35,7 +35,9 @@
 
     {% include scrollButton.html %} 
 
-    {% include map.html %}    
+    {% include map.html %} 
+    
+    {% include footer.html %}    
 
     {% include google-analytics.html %}    
 
