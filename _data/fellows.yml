@@ -1,5 +1,5 @@
 - name: Grace Omotoso
-  img: amanda.jpg
+  img: grace.jpg
   location: Murfreesboro, Tennessee, United States
   position : Pod Leader
   github : https://github.com/grace-omotoso
@@ -27,7 +27,7 @@
         laborum.
 
 - name: Apurva Sharma
-  img: aaron.jpg
+  img: apurva.jpg
   location: Chhattisgrah, India
   position : MLH Fellow
   github : https://github.com/Apurva-tech
@@ -83,7 +83,7 @@
         laborum.
 
 - name: Hugo Castro
-  img: aaron.jpg
+  img: hugo.jpg
   location: Talca, Chile
   position : MLH Fellow
   github : https://github.com/HugoCL
@@ -139,7 +139,7 @@
         laborum.
 
 - name: Nishtha Nishtha
-  img: aaron.jpg
+  img: nishtha.jpeg
   location: Haryana,India
   position : MLH Fellow
   github : https://github.com/Nishtha0801
@@ -180,30 +180,41 @@
         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
         laborum.
 
-- name: Yogesh Kumar
-  img: aaron.jpg
-  location: Location
+- name: Rudransh Sharma
+  img: rudransh.jpg
+  location: Odisha, India
   position : MLH Fellow
+<<<<<<< HEAD
   github : https://github.com/
   linkedIn : https://www.linkedin.com/feed/
   twitter: https://twitter.com/
   resume: https://docs.google.com/document/d/1nPJ4kpkImwtQpui6p5C0ZnMml3zpM2_gx2Vv9oPxg2c/edit
+=======
+  github : rudranshsharma123
+  linkedIn : https://www.linkedin.com/in/rudransh-sharma123/
+>>>>>>> upstream/main
+  aboutme :  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+        
+- name: Yogesh Kumar
+  img: aaron.jpg
+  location: Location
+  position : MLH Fellow
+<<<<<<< HEAD
+  github : https://github.com/rudranshsharma123
+  linkedIn : https://www.linkedin.com/in/rudransh-sharma123/
+  twitter: https://twitter.com/
+  resume: https://docs.google.com/document/d/1nPJ4kpkImwtQpui6p5C0ZnMml3zpM2_gx2Vv9oPxg2c/edit
+=======
+  github : 
+  linkedIn : https://www.linkedin.com/feed/
+>>>>>>> upstream/main
   aboutme :  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
         laborum.
 
-- name: Rudransh Sharma
-  img: aaron.jpg
-  location: Odisha, India
-  position : MLH Fellow
-  github : https://github.com/rudranshsharma123
-  linkedIn : https://www.linkedin.com/in/rudransh-sharma123/
-  twitter: https://twitter.com/
-  resume: https://docs.google.com/document/d/1nPJ4kpkImwtQpui6p5C0ZnMml3zpM2_gx2Vv9oPxg2c/edit
-  aboutme :  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.
