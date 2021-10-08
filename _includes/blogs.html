@@ -4,13 +4,14 @@
   <div class="blogs-wrapper">
     {% for item in site.data.blogs %}
     {% if item.blog-name %}
-    <!-- <a href="/blogs/{{ item.blog-name }}"> -->
+    <a href="/{{ item.blog-name }}">
+
     {% else %}
     <a>
     {% endif %}
     <section class="cards-wrapper-blogs">
       <div class="card-grid-space-blogs">
-        <a class="card-blogs" href="/blogs/{{ item.blog-name }}" style="--bg-img: url(/assets/img/{{ item.img }})">
+        <a class="card-blogs" href="/{{ item.blog-name }}" style="--bg-img: url(/assets/img/{{ item.img }})">
           <div class="glass">
             <h1>{{ item.topic }}</h1>
             <p class="des-blog">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim culpa aperiam repellat cupiditate libero?</p>
