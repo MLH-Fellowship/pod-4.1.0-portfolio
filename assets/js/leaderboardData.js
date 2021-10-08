@@ -1,5 +1,5 @@
 const api_url =
-  "https://api.github.com/repos/MLH-Fellowship/pod-4.1.0-portfolio/pulls?state=closed";
+  "https://api.github.com/repos/MLH-Fellowship/pod-4.1.0-portfolio/pulls?state=closed&per_page=100";
 
 /* 
 Team Members List: (Based on Index number)
