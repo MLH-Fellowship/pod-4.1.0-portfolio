@@ -222,11 +222,11 @@ path {
   }
 }
 
-.meet-the-pod-div, .pod-stats-div, .projects-div, .blogs-div, .pod-leaderboard-div, .fellow-locator-div{
+.meet-the-pod-div, .about-us-div .pod-stats-div, .projects-div, .blogs-div, .pod-leaderboard-div, .fellow-locator-div{
   margin: 80px 0;
 }
 
-.meet-the-pod-div span, .pod-stats-div span, .pod-leaderboard-div span, .projects-div span, .blogs-div span, .fellow-locator-div span {
+.meet-the-pod-div span, .about-us-div span, .pod-stats-div span, .pod-leaderboard-div span, .projects-div span, .blogs-div span, .fellow-locator-div span {
   font-size: 35px;
   background: linear-gradient(180deg,rgba(255,255,255,0) 60%, rgba(28, 83, 159, 0.2) 60%);
 }
@@ -235,6 +235,11 @@ path {
   .meet-the-pod-div span, .pod-stats-div span, .projects-div span, .blogs-div span, .fellow-locator-div span {
     font-size: 25px;
   }
+}
+
+.about-us-div {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 // Leaderboard
