@@ -32,12 +32,11 @@
                     <div class="col-lg-4">
                         <div class="mt-4">
                             <h5 class="f-18">Blogs</h5>
+                            {% for item in site.data.blogs %}
                             <ul class="list-unstyled footer-link mt-3">
-                                <li><a href="./blog">Pod 4.1.0</a></li>
-                                <li><a href="./blog">Our Pod Leader!</a></li>
-                                <li><a href="./blog">Why do we all love MLH?</a></li>
-                                <!-- <li><a href="https://policies.google.com/terms">Condition</a></li> -->
+                                <li><a href="/{{ item.blog-name }}">{{ item.topic }}</a></li>
                             </ul>
+                            {% endfor %}
                         </div>
                     </div>
 
