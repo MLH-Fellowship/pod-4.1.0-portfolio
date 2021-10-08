@@ -1,19 +1,54 @@
-<h2>Projects</h2>
+<div class="projects-div">
+<h2 data-aos="fade-up" data-aos-duration="500"><span>Projects</span></h2>
 <div class="card-container">
-    {% for item in site.data.projects %}
-    {% if item.page-name %}
-    <a href="/projects/{{ item.page-name }}">
-    {% else %}
-    <a>
-    {% endif %}
-      <div class="card">
-        <div class="info">
-          <p class="title">{{ item.title }}</p>
-          <p class="location">{{ item.event }}</p>
-          <p class="dates">{{ item.date }}</p>
+  {% for item in site.data.projects %}
+  <!-- <a href="{{ item.project-link }}> -->
+  <div
+    class="project-card"
+    onclick="location.href='{{ item.project-link }}';"
+    style="cursor: pointer"
+  >
+    <div class="img-avatar">
+      <!--  Add profile picture of project admin on project card -->
+      <img
+        class="project-avatar"
+        src="./assets/img/{{ item.project-avatar }}"
+        alt=""
+      />
+    </div>
+    <div class="card-text">
+      <div class="portada">
+        <img class="project-img" src="./assets/img/{{ item.img }}" alt="" />
+      </div>
+      <div>
+        <!-- Add necessary details of the project -->
+        <div class="title">{{ item.event }}</div>
+        <div class="title">{{ item.date }}</div>
+      </div>
+      <div class="title-total">
+        <!-- Add title and description of the project -->
+        <h2>{{ item.title }}</h2>
+        <div class="desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
         </div>
       </div>
-    </a>
-    {% endfor %}
+      <div class="actions">
+        <!-- Add projects demo link (for eg. Youtube demonstration link) -->
+        <a class="project-button" href="{{ item.demo-link }}"
+          ><i class="fab fa-youtube"></i
+        ></a>
+        <!-- Add Live project URL -->
+        <a class="project-button" href="{{ item.project-link }}"
+          ><i class="fas fa-link"></i
+        ></a>
+        <!-- Add project Github Link -->
+        <a class="project-button" href="{{ item.github-link }}"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+    </div>
   </div>
-  
+  {% endfor %}
+</div>
+</div>

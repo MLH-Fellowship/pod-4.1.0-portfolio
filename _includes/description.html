@@ -1,41 +1,31 @@
-<h2>Meet the Pod</h2>
-
-<!-- pod leader -->
-<div class="d-flex justify-content-around row fellow col-12 container">
-    {% for item in site.data.leaders %}
-    <div class="col-md-4 mt-3 mb-3" >
-        <div class="fellow-card" >
-            <img src="./assets/img/{{ item.img }}" alt="" />
-            <div class="data">
-                <h2>{{ item.name }}</h2>
-                <p>{{ item.position }}</p>
-                <i>{{ item.location }}</i>
-            </div>
+<div class="meet-the-pod-div">
+<h2 data-aos="fade-up" data-aos-duration="500"><span>Meet the Pod</span></h2>
+<section>
+  <div class="container">
+      <div class="row">
+          <div class="col-12 text-right controllers">
+              <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                  <i class="fa fa-arrow-left"></i>
+              </a>
+              <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                  <i class="fa fa-arrow-right"></i>
+              </a>
+          </div>
+          <div class="col-12">
+              {% include carousal-large.html %}
+          </div>
+          <div class="col-12">
+            {% include carousal-small.html %}
         </div>
-    </div>
-    {% endfor %}
+      </div>
+  </div>
+</section>
 </div>
-
-<!-- pod fellow -->
-<div class="row fellow col-12 container">
-    {% for item in site.data.fellows %}
-    <div class="col-md-3 mt-3 mb-3" >
-        <div class="fellow-card" style="width:95%; height:95% ;">
-            <img src="./assets/img/{{ item.img }}" alt="" />
-            <div class="data">
-                <h2>{{ item.name }}</h2>
-                <p>{{ item.position }}</p>
-                <i>{{ item.location }}</i>
-            </div>
-        </div>
-    </div>
-    {% endfor %}
-</div>
-
 
 <!-- Pod Stats -->
-<h2>Pod Stats</h2>
-<div class="stats">
+<div class="about-us-div">
+<h2 data-aos="fade-up" data-aos-duration="500"><span>Pod Stats</span></h2>
+<div class="stats" data-aos="fade-up" data-aos-duration="500">
   <!-- Repo Badge -->
   <a href="https://github.com/MLH-Fellowship/pod-4.1.0-portfolio">
     <img alt="Issues" src="https://github-readme-stats.vercel.app/api/pin/?username=MLH-Fellowship&repo=pod-4.1.0-portfolio" />
