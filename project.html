@@ -22,7 +22,7 @@ permalink: /project/
       class="banner"
     >
       <div class="container">
-        <div class="logo">
+        <div class="logo" data-aos="fade-down" data-aos-duration="500">
           <a href="/">
             <!-- replaced the mlh fellowship logo with the new mlh prep logo -->
             <img
@@ -38,11 +38,11 @@ permalink: /project/
             />
           </a>
         </div>
-        <div class="title">My Project</div>
+        <div class="title" data-aos="fade-down" data-aos-duration="500">My Project</div>
       </div>
     </div>
 
-    <div class="container page">
+    <div class="container page" data-aos="fade-up" data-aos-duration="500">
       <h2 id="inspiration">Inspiration</h2>
 
       <p>
@@ -93,5 +93,9 @@ permalink: /project/
       {% include back-button.html %}      
     </div>
     <script src="/assets/js/darkModeSwitch.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

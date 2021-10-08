@@ -9,7 +9,6 @@
 @import 'project';
 @import 'fellow';
 @import 'map';
-@import 'cursor';
 @import 'scrollButton';
 @import 'loader';
 
@@ -222,17 +221,16 @@ path {
   }
 }
 
-.meet-the-pod-div, .pod-stats-div, .projects-div, .blogs-div, .pod-leaderboard-div, .fellow-locator-div{
+.meet-the-pod-div, .pod-stats-div, .pod-leaderboard-div, .projects-div, .blogs-div, .fellow-locator-div{
   margin: 80px 0;
 }
 
-.meet-the-pod-div span, .pod-stats-div span, .pod-leaderboard-div span, .projects-div span, .blogs-div span, .fellow-locator-div span {
+.meet-the-pod-div .meet-the-pod-heading, .pod-stats-div .pod-stats-heading, .pod-leaderboard-div .leaderboard-heading, .projects-div .projects-heading, .blogs-div .blogs-heading, .fellow-locator-div .fellow-locator-heading {
   font-size: 35px;
-  background: linear-gradient(180deg,rgba(255,255,255,0) 60%, rgba(28, 83, 159, 0.2) 60%);
 }
 
 @media (max-width: 500px) {
-  .meet-the-pod-div span, .pod-stats-div span, .projects-div span, .blogs-div span, .fellow-locator-div span {
+  .meet-the-pod-div .meet-the-pod-heading, .pod-stats-div .pod-stats-heading, .pod-leaderboard-div .leaderboard-heading, .projects-div .projects-heading, .blogs-div .blogs-heading, .fellow-locator-div .fellow-locator-heading {
     font-size: 25px;
   }
 }
