@@ -51,7 +51,11 @@
 }
 .fellow-card:hover .data p,
 .fellow-card:hover .data a {
-  opacity: 1
+  opacity: 1;
+}
+.fellow-card:hover #name {
+  text-decoration: underline;
+  color : #38c;
 }
 .data a {
   color: #333;
