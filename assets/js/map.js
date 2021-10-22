@@ -79,7 +79,7 @@ var podMembersInfo = [
   },
   {
     name: 'rudransh',
-    coordinates: [28, 77],
+    coordinates: [29, 77.05],
     location: 'Odisha, India',
     role: 'Fellow',
   },
